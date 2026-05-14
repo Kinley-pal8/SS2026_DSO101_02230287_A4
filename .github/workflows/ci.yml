@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -31,7 +31,7 @@ jobs:
         run: pytest test_app.py --cov=app --cov-report=term-missing
 
       - name: Build notification
-        run: echo "✅ Build and tests passed successfully!"
+        run: echo "Build and tests passed successfully!"
 
       - name: Deploy message
-        run: echo "🚀 Ready for deployment to Render..."
+        run: echo "Ready for deployment to Render..."
