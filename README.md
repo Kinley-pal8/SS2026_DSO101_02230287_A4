@@ -131,17 +131,3 @@ The pipeline includes comprehensive test coverage:
 - The pipeline runs on every push to the main branch
 - Coverage reports are generated during CI/CD runs
 
-## Assignment Completion
-
-This project fulfills all requirements:
-BACKEND app created (Flask)
-UNIT tests implemented (pytest)
-CI/CD pipeline configured (GitHub Actions)
-AUTOMATED deployment ready (Render)
-COMPLETE project structure
-
----
-
-**Date Submitted:** 13th May
-**Course:** DSO101 - Continuous Integration and Continuous Deployment
-**Program:** Bachelor's of Engineering in Software Engineering (SWE)
